@@ -75,7 +75,14 @@ justify-content: center;
     color: #1F2937;
 }
 
-.par{
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.um{
     width: 200px;
+    word-wrap: break-word;
 }
 
