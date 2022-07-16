@@ -27,15 +27,6 @@ ul{
     color: #F9F8F8;
 }
 
-.hero{
-    /*
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    */
-}
-
-
 
 .sign-up{
 width: 100px;
@@ -56,4 +47,35 @@ width: 100px;
     justify-content: space-around;
 }
 
+.box-section{
+justify-content: center;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 8px solid blue;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.random-info{
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.par{
+    width: 200px;
+}
 
