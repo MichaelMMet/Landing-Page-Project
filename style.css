@@ -12,7 +12,7 @@ flex-direction: column;
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     padding: 10px;
 }
 
@@ -28,12 +28,32 @@ ul{
 }
 
 .hero{
+    /*
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    */
+}
+
+
+
+.sign-up{
+width: 100px;
 }
 
 .header-photo{
     width: 250px;
 }
+
+.uh{
+    display: flex;
+    justify-content: end;
+}
+.container{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 
