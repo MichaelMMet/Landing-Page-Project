@@ -36,7 +36,7 @@ width: 100px;
     width: 250px;
 }
 
-.uh{
+.top-fox-photo{
     display: flex;
     justify-content: end;
 }
@@ -81,8 +81,33 @@ justify-content: center;
     justify-content: space-around;
 }
 
-.um{
+.para{
     width: 200px;
     word-wrap: break-word;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    justify-content: center;
+    display: flex;
+}
+
+/*
+.quote-container{
+    display: flex;
+    flex-direction: row;
+}
+*/
+
+#my-quote{
+    width: 380px;
+    word-wrap: break-word;
+}
+
+#name{
+    margin-top: 100px;
+}
+
+.footer{
+    
+}
